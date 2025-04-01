@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/squad.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="/img/logo.png" alt="FC Barcelona Logo" class="logo">
+        <ul class="nav-links" id="nav-links">
+            <li><a href="/finalproject/home.html">Home</a></li>
+            <li><a href="/squad/squad.html">Squad</a></li>
+            <li><a href="/matches/matches.html">Matches</a></li>
+            <li><a href="/shop/shop.html">Shop</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+    </nav>
+
+    <h1>Meet the Squad</h1>
+    <div class="container">
+        <div class="squad">
+            <div class="card">
+                <img src="/img/raphinha.jpeg" alt="Player 1" width="300">
+                <h2>Raphael Dias</h2>
+                <p>Position: Right Winger</p>
+                <p>Natinality: Brazilian</p>
+            </div>
+            <div class="card">
+                <img src="/img/pedri.webp" alt="Player 2" width="300">
+                <h2>Pedro González</h2>
+                <p>Position: Center Midfielder</p>
+                <p>Nationality: Spanish</p>
+            </div>
+            <div class="card">
+                <img src="/img/cubarsi.webp" alt="Player 3" width="300">
+                <h2>Pau Cubarsí</h2>
+                <p>Position: Center Back</p>
+                <p>Nationality: Spanish</p>
+            </div>
+            <div class="card">
+                <img src="/img/ter.webp" alt="Player 4" width="300">
+                <h2>Marc-André ter Stegen</h2>
+                <p>Position: Goalkeeper</p>
+                <p>Nationality: German</p>
+            </div>
+            <div class="card">
+                <img src="/img/yamal.webp" alt="Player 5" width="300">
+                <h2>Lamine Yamal</h2>
+                <p>Position: Left Winger</p>
+                <p>Nationality: Spanish</p>
+            </div>
+            <div class="card">
+                <img src="/img/ron.webp" alt="Player 6" width="300">
+                <h2>Ronald Araújo</h2>
+                <p>Position: Center Back</p>
+                <p>Nationality: Uruguayan</p>
+            </div>
+            <div class="card">
+                <img src="/img/lewa.webp" alt="Player 7" width="300">
+                <h2>Robert Lewandowski</h2>
+                <p>Position: Striker</p>
+                <p>Nationality: Polish</p>
+            </div>
+            <div class="card">
+                <img src="/img/gavi.webp" alt="Player 8" width="300">
+                <h2>Pablo Gavi</h2>
+                <p>Position: Center Midfielder</p>
+                <p>Nationality: Spanish</p>
+            </div>
+            <div class="card">
+                <img src="/img/inigo.webp" alt="Player 9" width="300">
+                <h2>Iñigo Martínez</h2>
+                <p>Position: Center Back</p>
+                <p>Nationality: Spanish</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 FC Barcelona. All rights reserved.</p>
+            <p>Contact: <a href="tel:+1234567890">+1 234 567 890</a> | 
+               Email: <a href="mailto:contact@fcbarcelona.com">contact@fcbarcelona.com</a></p>
+            <p>Follow us on:
+                <a href="https://twitter.com/FCBarcelona" target="_blank">Twitter</a> |
+                <a href="https://www.instagram.com/fcbarcelona" target="_blank">Instagram</a> |
+                <a href="https://www.facebook.com/fcbarcelona" target="_blank">Facebook</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+       
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
